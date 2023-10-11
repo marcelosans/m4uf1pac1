@@ -4,75 +4,65 @@
         <meta charset="utf-8">
         <title>Gudetama</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="./img/gudetama.ico">
+        <link rel="icon" href="../img/gudetama.ico">
         <link rel="stylesheet" href="#">
     </head>
     <body>
         <header>
-            <img src="./img/Logo_Pagina.png" alt="Logo" height="150" width="150">
+            <img src="../img/Logo_Pagina.png" alt="Logo" height="150" width="150">
         </header>
 
         <nav>
             <ul>
-                <li><a href="index.html">Inici</a></li>
-                <li><a href="./web/general.html">General</a></li>
-                <li><a href="./web/fotos.html">Fotos</a></li>
-                <li><a href="./web/videos.html">Vídeos</a></li>
-                <li><a href="./web/agenda.html">Agenda</a></li>
-                <li><a href="./web/contacte.html">Contacte</a></li>
+                <li><a href="../index.html">Inici</a></li>
+                <li><a href="./general.html">General</a></li>
+                <li><a href="./fotos.html">Fotos</a></li>
+                <li><a href="./videos.html">Vídeos</a></li>
+                <li><a href="./agenda.html">Agenda</a></li>
+                <li><a href="./contacte.html">Contacte</a></li>
             </ul>
         </nav>
 
         <main>
-
-            <h1>Benvinguts al club de fans de Gudetama</h1>
-
-            <img src="./img/gudetama.jpg" height="500" width="600" alt="">
-
-            <hr>
-            <article>    
-            <h2>La nova temporada de Gudetama</h2>
-            <figure>
-            <img src="./img/GudetamaSeason2.jpg" alt="GudetamaSeason2"  height="500" width="600">
-            <figcaption>09/10/2023 - Paco Sans</figcaption>
-            </figure>
-                <p>¡Gudetama regresa con una nueva temporada llena de huevos-travagancia! <br>
-    
-                    La querida y perezosa yema de huevo, Gudetama, está de vuelta y listo para conquistar <br>
-                     nuestros corazones con su actitud despreocupada y adorable. La nueva temporada de Gudetama <br>
-                      promete traer más diversión, travesuras y momentos perezosos que nunca.</p>
-
-
-
-            </article>
-
-            <hr>
-            <article>    
-            <h2>Gudetama en SanrioLand</h2>
-            <figure>
-            <img src="./img/sanrioland.jpg" alt="SanrioLand" height="500" width="600">
-            <figcaption>09/10/2023 - Shinji Mikami</figcaption>
-            </figure>
-                <p>¡Gudetama encuentra su hogar en SanrioLandia! <br>
-
-                    La famosa y querida yema de huevo, Gudetama, ha encontrado un nuevo hogar en SanrioLandia, <br>
-                     el mágico y colorido mundo de Sanrio. Esta emocionante colaboración entre Sanrio y Gudetama <br>
-                     ha dado lugar a una experiencia única llena de diversión y pereza. <br>
-                    <br>
-                    SanrioLandia, conocido por ser el hogar de personajes icónicos como Hello Kitty, <br>
-                    My Melody y Keroppi, ahora da la bienvenida a Gudetama con los brazos abiertos. <br>
-                    La perezosa yema de huevo ha conquistado los corazones de millones de personas <br>
-                     en todo el mundo con su actitud relajada y su encanto inimitable.
-    
-                    </p>
+            <section>
+                <h1>Contacta'ns amb nosaltres</h1>
+                <h4>Per qualsevol dubte que vols donar pots fer en aquest formulari</h4>
+            <form>
+            <label for="nom">Nom</label>
+            <input type="text" name="nom" id="nom" placeholder="Introdueix el teu nom" maxlength="30" required>
+            <br>
+            <br>
+            <label for="correu">Correu</label>
+            <input type="email" name="correu" id="correu" placeholder="El teu correu" required>
+            <br>
+            <br>
+            <label for="telefon">Telefon</label>
+            <input type="tel" name="telefon" id="telefon" placeholder="El teu numero de telefòn" maxlength="9" required>
+            <br>
+            <br>
+            <label for="descripcio">Descripció</label>
+            <br>
+            <textarea name="descripcio" id="descripcio" cols="30" rows="10" placeholder="Posa el que vols dir" required></textarea>
+                <br>
+                <br>
+            <input value="Envia el formulari" type="submit">
+            </form>
+        </section>          
+        
+        <aside>
+            <h1>Troban's</h1>
+            <h4>Aqui ens pot trobar a les nostres oficines</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.1302117631585!2d139.42671807553893!3d35.62451633308777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e34b221ad081%3A0xf0aaab4654086855!2sSanrio%20Puroland!5e0!3m2!1ses!2ses!4v1697061813437!5m2!1ses!2ses" 
+            width="600" height="450" style="border:0;"
+             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
 
 
 
-            </article>
-            <hr>
+        </aside>
 
         </main>
-
+        <hr>
         <footer>
 
             <h3>&copy; Marcel Lejk and Gudetama</h3>
